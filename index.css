@@ -1,0 +1,143 @@
+@import url('http://fonts.cdnfonts.com/css/super-legend-boy');
+
+@font-face {
+    font-family: 'Super Legend Boy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Super Legend Boy'), url('https://fonts.cdnfonts.com/s/37192/SuperLegendBoy-4w8Y.woff') format('woff');
+}
+
+img {
+    width: 450px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.resumo p {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+    background-image: url('https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2010/3/3/1267639031861/Super-Mario-Clouds-001.jpg');
+}
+
+div img {
+    width: 700px;
+}
+
+*{margin: 0; padding: 0;}
+
+
+.menu {
+    font-family: 'Super Legend Boy', sans-serif;
+    list-style: none;
+    border: 1px solid #000000;
+    float: left;
+
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #000000;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: rgb(0, 58, 230);
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.link a {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.cavalo h1 {
+    font-family: 'Super Legend Boy', sans-serif;
+    text-align: center;
+}
+
+.cavalo p {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: justify;
+    margin:auto;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+
+.fanta h1 {
+    font-family: 'Super Legend Boy', sans-serif;
+    text-align: center;
+}
+
+.fanta p {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: justify;
+    margin:auto;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.fanta ul {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.coca h1 {
+    font-family: 'Super Legend Boy', sans-serif;
+    text-align: center;
+}
+
+.coca p {
+    font-family: 'Super Legend Boy', sans-serif;
+    width: 900px;
+    text-align: justify;
+    margin:auto;
+    font-size: 20px;
+    padding-top:30px;
+}
